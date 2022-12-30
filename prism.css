@@ -67,33 +67,6 @@ pre[class*=language-] {
     white-space: normal
 }
 
-pre[class*=language-]:after,
-pre[class*=language-]:before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: .75em;
-    left: .18em;
-    width: 40%;
-    height: 20%;
-    max-height: 13em;
-    box-shadow: 0 13px 8px #979797;
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    -o-transform: rotate(-2deg);
-    transform: rotate(-2deg)
-}
-
-pre[class*=language-]:after {
-    right: .75em;
-    left: auto;
-    -webkit-transform: rotate(2deg);
-    -moz-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    -o-transform: rotate(2deg);
-    transform: rotate(2deg)
-}
 
 .token.block-comment,
 .token.cdata,
